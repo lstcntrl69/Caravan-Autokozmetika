@@ -3,6 +3,6 @@
 Oldalak:
 -Főoldal
 -Szolgáltatások
--Árak: Alap,Extra,Prémium
+-Árak: külsö, belső, polír, bőrápolás(Alap,Extra,Prémium)
 -Elérhetőség
 -Galéria
