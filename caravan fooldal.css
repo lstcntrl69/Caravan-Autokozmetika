@@ -29,17 +29,29 @@
 .contact-info {
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 30px;
 }
 
 .info-box {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .info-box .icon {
-    font-size: 30px;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.info-box .icon img {
+    width: 22px;
+    height: 22px;
+    display: block;
+    object-fit: contain;
 }
 
 .info-box strong {
@@ -169,4 +181,9 @@ body {
     .carousel-caption p {
         font-size: 14px;
     }
+}
+
+.icon{
+    width: 10% auto;
+    height: 10% auto;
 }
