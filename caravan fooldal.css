@@ -85,3 +85,8 @@ body {
 .nav-container a:hover {
     color: #f5c400;
 }
+.carousel{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
