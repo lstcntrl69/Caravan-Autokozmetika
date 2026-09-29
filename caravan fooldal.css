@@ -1,0 +1,85 @@
+/* FELSŐ FEHÉR SÁV */
+
+.top-bar {
+    background: #fff;
+    height: 110px;
+}
+
+.top-container {
+    max-width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* LOGÓ */
+
+.logo img {
+    width: 220px;
+    height: auto;
+}
+
+
+/* JOBB OLDALI INFORMÁCIÓK */
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.info-box .icon {
+    font-size: 30px;
+}
+
+.info-box strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.info-box small {
+    display: block;
+    color: #777;
+    font-size: 13px;
+}
+
+
+
+.navbar {
+    background: #222f67;
+    height: 60px;
+}
+
+.nav-container {
+    max-width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.nav-container a:hover {
+    color: #f5c400;
+}
