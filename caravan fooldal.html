@@ -1,67 +1,101 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caravan Autókozmetika</title>
     <link rel="stylesheet" href="caravan fooldal.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
 
-    <div class="top-bar">
-        <div class="top-container">
+        <div class="top-bar">
+            <div class="top-container">
 
-            <div class="logo">
-                <img src="Caravan Autókozmetika Logo.png" alt="Caravan Autókozmetika">
+                <div class="logo">
+                    <img src="Caravan Autókozmetika Logo.png" alt="Caravan Autókozmetika">
+                </div>
+
+                <div class="contact-info">
+
+                    <div class="info-box">
+                        <span class="icon">🕐</span>
+                        <div>
+                            <strong>Nyitvatartás:</strong>
+                            <small>H-P: 08:00-18:00 | Szo: 09:00-14:00</small>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <span class="icon">📞</span>
+                        <div>
+                            <strong>Telefonszám:</strong>
+                            <small>+36 30 123 4567</small>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <span class="icon">✉️</span>
+                        <div>
+                            <strong>Email cím:</strong>
+                            <small>info@caravanautokozmetika.hu</small>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-
-            <div class="contact-info">
-
-                <div class="info-box">
-                    <span class="icon">🕐</span>
-                    <div>
-                        <strong>Nyitvatartás:</strong>
-                        <small>H-P: 08:00-18:00 | Szo: 09:00-14:00</small>
-                    </div>
-                </div>
-
-                <div class="info-box">
-                    <span class="icon">📞</span>
-                    <div>
-                        <strong>Telefonszám:</strong>
-                        <small>+36 30 123 4567</small>
-                    </div>
-                </div>
-
-                <div class="info-box">
-                    <span class="icon">✉️</span>
-                    <div>
-                        <strong>Email cím:</strong>
-                        <small>info@caravanautokozmetika.hu</small>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
+
+
+        <nav class="navbar">
+            <div class="nav-container">
+
+                <a href="#">FŐOLDAL</a>
+                <a href="#">SZOLGÁLTATÁSOK</a>
+                <a href="#">ÁRAK ÉS FOGLALÁS</a>
+                <a href="#">ELÉRHETŐSÉG</a>
+                <a href="#">GALÉRIA</a>
+
+            </div>
+        </nav>
+
+    </header>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
 
-    <nav class="navbar">
-        <div class="nav-container">
 
-            <a href="#">FŐOLDAL</a>
-            <a href="#">SZOLGÁLTATÁSOK</a>
-            <a href="#">ÁRAK ÉS FOGLALÁS</a>
-            <a href="#">ELÉRHETŐSÉG</a>
-            <a href="#">GALÉRIA</a>
 
-        </div>
-    </nav>
-
-</header>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
