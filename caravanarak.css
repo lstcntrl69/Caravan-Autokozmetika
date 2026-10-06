@@ -185,3 +185,14 @@ body {
     width: 10% auto;
     height: 10% auto;
 }
+
+ul,li{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
