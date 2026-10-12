@@ -13,16 +13,11 @@
     justify-content: space-between;
 }
 
-
-/* LOGÓ */
-
 .logo img {
     width: 220px;
     height: auto;
 }
 
-
-/* JOBB OLDALI INFORMÁCIÓK */
 
 .contact-info {
     display: flex;
