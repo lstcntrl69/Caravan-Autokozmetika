@@ -14,3 +14,10 @@ fooldal, szolgaltatasok
 
 mark: 
 arak, elerhetosegek, galeria
+
+szolgaltatasok:
+-polirozas
+-kulso tisztitas
+-belso tisztitas
+-borapolas
+-gumi apolas
