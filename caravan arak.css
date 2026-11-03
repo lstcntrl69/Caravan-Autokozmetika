@@ -182,7 +182,6 @@ body {
 }
 
 ul,li{
-    font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     font-size:x-large;
 }
@@ -190,4 +189,198 @@ ul,li{
 h1{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ÁRLISTA TARTALOM */
+
+.pricing-container {
+padding-top: 70px;
+padding-bottom: 80px;
+}
+
+.pricing-title {
+text-align: center;
+margin-bottom: 55px;
+}
+
+.pricing-title span {
+color: #c99b35;
+font-weight: 800;
+letter-spacing: 4px;
+font-size: 12px;
+}
+
+.pricing-title h1 {
+font-size: 38px;
+font-weight: 800;
+margin: 15px 0;
+}
+
+.pricing-title p {
+color: #777;
+font-size: 14px;
+}
+
+/* KÁRTYÁK */
+
+.pricing-cards {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+}
+
+.pricing-card {
+position: relative;
+background: #1c2024;
+color: white;
+padding: 35px 25px;
+border-radius: 12px;
+border: 1px solid #343a40;
+transition: 0.3s;
+}
+
+.pricing-card:hover {
+transform: translateY(-10px);
+border-color: #c99b35;
+box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.price-icon {
+font-size: 35px;
+margin-bottom: 20px;
+}
+
+.pricing-card h2 {
+font-size: 23px;
+font-weight: 800;
+margin-bottom: 12px;
+}
+
+.pricing-card > p {
+color: #aaa;
+font-size: 13px;
+min-height: 55px;
+line-height: 1.7;
+}
+
+.highlighted {
+border: 2px solid #c99b35;
+background: #25251f;
+}
+
+.popular-label {
+position: absolute;
+top: 15px;
+right: 15px;
+color: #c99b35;
+font-size: 10px;
+font-weight: 800;
+}
+
+/* ÁRAK */
+
+.price-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+padding: 16px 0;
+border-bottom: 1px solid #383838;
+font-size: 13px;
+}
+
+.price-row:last-child {
+border-bottom: none;
+}
+
+.price-row strong {
+color: #d6a943;
+white-space: nowrap;
+}
+
+/* MEGJEGYZÉS */
+
+.pricing-note {
+text-align: center;
+color: #888;
+font-size: 12px;
+margin-top: 25px;
+}
+
+/* FOGLALÁSI SÁV */
+
+.booking-banner {
+margin-top: 65px;
+padding: 35px;
+background: #1c2024;
+border-left: 5px solid #c99b35;
+border-radius: 8px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+
+.booking-banner h2 {
+font-size: 23px;
+font-weight: 800;
+}
+
+.booking-banner p {
+color: #aaa;
+margin-bottom: 0;
+font-size: 13px;
+}
+
+.booking-banner a {
+background: #c99b35;
+color: #111;
+text-decoration: none;
+padding: 15px 22px;
+font-size: 12px;
+font-weight: 800;
+border-radius: 5px;
+white-space: nowrap;
+transition: 0.3s;
+}
+
+.booking-banner a:hover {
+background: white;
+}
+
+/* RESZPONZÍV */
+
+@media (max-width: 900px) {
+.pricing-cards {
+grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (max-width: 600px) {
+.pricing-cards {
+grid-template-columns: 1fr;
+}
+
+.pricing-title h1 {
+    font-size: 28px;
+}
+.booking-banner {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 }
