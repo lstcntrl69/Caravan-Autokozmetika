@@ -71,58 +71,152 @@
         <br>
         <div class="container">
 
-            <div>
-            <h1 style="position: relative; left: 5%;">Külső:</h1>
-            <ul style="position: relative; left: 5%;">
-                <li>Alap: <u>5.000 Ft</u></li>
-                <li>Extra: <u>10.000 Ft</u></li>
-                <li>Premium: <u>20.000 Ft</u></li>
-            </ul>
-            </div>
-            
-            <hr>
-            
-            <div>
-            <h1 style="position: relative; left: 5%;">Belső:</h1>
-            <ul style="position: relative; left: 5%;">
-                <li>Alap: <u>20.000 Ft</u></li>
-                <li>Extra: <u>30.000 Ft</u></li>
-                <li>Premium: <u>40.000 Ft</u></li>
-            </ul>
-            </div>
-            
-            <hr>
 
-            <div>
-            <h1 style="position: relative; left: 5%;">Polír:</h1>
-            <ul style="position: relative; left: 5%;">
-                <li>Egy elem polírozása: <u>20.000 - 30.000 Ft</u></li>
-                <li>Teljes polírozás (Jármű méretétől függ): <u>50.000 - 100.000 Ft</u></li>
-                <li>Teljes mély polírozás (Jármű méretétől függ):<u> 100.000 - 200.000 Ft</u></li>  
-            </ul>
-            </div>
-            
-            <hr>
-            
-            <form style="position: relative; left: 5%;">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">E-mail cím</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Jelszó</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-field">
-                </div>
-                <button class="btn-solid btn-styled theme-secondary">Küldés</button>
-            </form>
 
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="services">
+
+    <div class="services-header">
+        <span class="section-label">AUTÓKOZMETIKA</span>
+        <h1>Szolgáltatásaink és áraink</h1>
+        <p>Válaszd ki a számodra megfelelő szolgáltatást!</p>
+    </div>
+
+    <div class="pricing-grid">
+
+        <!-- Külső -->
+        <div class="pricing-card">
+            <div class="card-header">
+                <div class="card-icon">🚘</div>
+                <h2>Külső tisztítás</h2>
+                <p>Professzionális külső ápolás</p>
+            </div>
+
+            <div class="price-row">
+                <span>Alap</span>
+                <strong>5.000 Ft</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Extra</span>
+                <strong>10.000 Ft</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Premium</span>
+                <strong>20.000 Ft</strong>
+            </div>
         </div>
 
+        <!-- Belső -->
+        <div class="pricing-card">
+            <div class="card-header">
+                <div class="card-icon">🧽</div>
+                <h2>Belső tisztítás</h2>
+                <p>Alapos belső takarítás és ápolás</p>
+            </div>
 
-        <div class="pricing-title">
-   
+            <div class="price-row">
+                <span>Alap</span>
+                <strong>20.000 Ft</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Extra</span>
+                <strong>30.000 Ft</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Premium</span>
+                <strong>40.000 Ft</strong>
+            </div>
+        </div>
+
+        <!-- Polírozás -->
+        <div class="pricing-card polishing-card">
+            <div class="card-header">
+                <div class="card-icon">✨</div>
+                <h2>Polírozás</h2>
+                <p>Fényezéskorrekció és ragyogó megjelenés</p>
+            </div>
+
+            <div class="price-row">
+                <span>Egy elem polírozása</span>
+                <strong>20.000 – 30.000 Ft</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Teljes polírozás</span>
+                <strong>50.000 – 100.000 Ft</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Teljes mélypolírozás</span>
+                <strong>100.000 – 200.000 Ft</strong>
+            </div>
+
+            <div class="price-info">
+                Az árak a jármű méretétől és állapotától függnek.
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Ajánlatkérés -->
+    <div class="contact-section">
+
+        <div class="contact-header">
+            <span class="section-label">KAPCSOLAT</span>
+            <h2>Kérj egyedi ajánlatot!</h2>
+            <p>Vedd fel velünk a kapcsolatot, és segítünk megtalálni a megfelelő szolgáltatást.</p>
+        </div>
+
+        <form class="contact-form">
+
+            <div class="form-group">
+                <label for="email">E-mail cím</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="pelda@email.hu"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="message">Üzenet</label>
+                <textarea
+                    id="message"
+                    placeholder="Miben segíthetünk?"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+                Ajánlatkérés küldése →
+            </button>
+
+        </form>
+    </div>
+
+</section>
+
+
+
+
+
+
     </header>
 
 </body>
