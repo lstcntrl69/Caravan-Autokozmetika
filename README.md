@@ -10,10 +10,11 @@ Oldalak:
 
 eloszlas:
 edu:
-fooldal, szolgaltatasok
+fooldal, szolgaltatasok, galeria
+
 
 mark: 
-arak, elerhetosegek, galeria
+arak, elerhetosegek,
 
 szolgaltatasok:
 -polirozas

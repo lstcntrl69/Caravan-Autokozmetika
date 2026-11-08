@@ -191,26 +191,12 @@ h1{
     
 }
 
-
-
-
-
-
-
-
-
-
-
-/* TELJES ÁRLISTA */
-
 .services {
     background: #ffffff;
     color: #171717;
     padding: 60px 5%;
     font-family: Arial, sans-serif;
 }
-
-/* FEJLÉC */
 
 .services-header {
     text-align: center;
@@ -236,8 +222,6 @@ h1{
     font-size: 15px;
 }
 
-/* KÁRTYÁK */
-
 .pricing-grid {
     max-width: 1100px;
     margin: auto;
@@ -260,7 +244,6 @@ h1{
     border-color: #222;
 }
 
-/* KÁRTYA FEJLÉC */
 
 .card-header {
     margin-bottom: 25px;
@@ -290,8 +273,6 @@ h1{
     margin: 0;
 }
 
-/* ÁRAK */
-
 .price-row {
     display: flex;
     justify-content: space-between;
@@ -316,8 +297,6 @@ h1{
     white-space: nowrap;
 }
 
-/* POLÍROZÁS */
-
 .polishing-card {
     grid-column: span 2;
 }
@@ -330,8 +309,6 @@ h1{
     color: #666;
     margin-top: 20px;
 }
-
-/* KAPCSOLAT */
 
 .contact-section {
     max-width: 650px;
@@ -358,8 +335,6 @@ h1{
     font-size: 14px;
     line-height: 1.6;
 }
-
-/* ŰRLAP */
 
 .contact-form {
     display: flex;
@@ -404,8 +379,6 @@ h1{
     resize: vertical;
 }
 
-/* GOMB */
-
 .submit-button {
     background: #111;
     color: white;
@@ -422,8 +395,6 @@ h1{
     background: white;
     color: #111;
 }
-
-/* MOBILNÉZET */
 
 @media (max-width: 700px) {
 
