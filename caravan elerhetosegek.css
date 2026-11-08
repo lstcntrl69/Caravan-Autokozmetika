@@ -179,3 +179,107 @@ body {
     width: 10% auto;
     height: 10% auto;
 }
+
+
+
+
+
+
+
+
+
+.contact-page {
+    background: #fff;
+    color: #252a30;
+    padding: 35px 5%;
+}
+
+.contact-page h1 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.contact-person {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 10px;
+    border-top: 1px solid #ddd;
+    transition: background 0.2s;
+}
+
+.contact-person:hover {
+    background: #fafafa;
+}
+
+.person-icon {
+    width: 55px;
+    height: 55px;
+    background: #f1f2f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 27px;
+}
+
+.person-info h2 {
+    font-size: 21px;
+    margin: 0 0 8px;
+}
+
+.person-info p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.person-info a {
+    color: #263b70;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.person-info a:hover {
+    text-decoration: underline;
+}
+
+.location-section {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid #ddd;
+}
+
+.location-section h2 {
+    font-size: 25px;
+}
+
+.location-section p {
+    color: #777;
+}
+
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+@media (max-width: 600px) {
+    .contact-page h1 {
+        font-size: 28px;
+    }
+
+    .contact-person {
+        gap: 12px;
+    }
+
+    .map-container iframe {
+        height: 320px;
+    }
+}
