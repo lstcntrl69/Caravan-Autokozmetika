@@ -90,6 +90,7 @@ body {
 .nav-container a:hover {
     color: #f5c400;
 }
+
 .carousel {
     width: min(760px, 85vw);
     height: 420px;
@@ -176,19 +177,20 @@ body {
     }
 }
 
-.icon{
+.icon {
     width: 10% auto;
     height: 10% auto;
 }
 
-ul,li{
+ul,
+li {
     font-family: 'Times New Roman', Times, serif;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-h1{
+h1 {
     font-weight: bold;
-    
+
 }
 
 .services {
